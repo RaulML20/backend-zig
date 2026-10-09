@@ -1,0 +1,19 @@
+.{
+    .name = .backend_zig,
+    .version = "0.1.0",
+    .fingerprint = 0x9f56fa55a9c5c78a, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .pg = .{
+            .url = "git+https://github.com/karlseguin/pg.zig?ref=master#1ca2d58d412af038254da5a67882c5b68977c34a",
+            .hash = "pg-0.0.0-Wp_7gY0XBwAT4SpnVT7CjXE5IbUUWMpUy10L_BkyPeg9",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
